@@ -59,7 +59,6 @@ const proccesXMLData = () => {
         document.getElementById("table").style.visibility = "visible";
 
         const xmlDoc = ajax.responseXML;
-        console.log(ajax.response);
 
         const films = xmlDoc.getElementsByTagName("film");
 
