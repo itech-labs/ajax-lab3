@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+    font-family: IBM Plex Sans;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5%;
+    height: 90vh;
+    background-color: #333333;
+    color: white;
+}
+
+#forms {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+#table {
+    visibility: hidden;
+}
+
+#data {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+label {
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+select,
+input[type="date"],
+input[type="submit"] {
+    font-family: IBM Plex Sans;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #444444;
+    color: white;
+}
+
+input[type="submit"] {
+    font-family: IBM Plex Sans;
+    background-color: #444444;
+    cursor: pointer;
+}
+
+input,
+select {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+input:hover,
+select:hover {
+    box-shadow: 0 0 0 2px #ffffff;
+}
+
+.form-info {
+    margin-bottom: 110px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+th {
+    border-bottom: 2px solid white;
+    font-weight: 400;
+}
+
+td {
+    border-bottom: 1px solid white;
+    font-weight: 300;
+}
